@@ -1,0 +1,52 @@
+{
+    "packages": [
+        {
+            "name": "sequra/integration-core",
+            "version": "v1.0.15",
+            "version_normalized": "1.0.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sequra/integration-core.git",
+                "reference": "df628aa1ae8ba1c49eef6748034c2889e19669e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sequra/integration-core/zipball/df628aa1ae8ba1c49eef6748034c2889e19669e6",
+                "reference": "df628aa1ae8ba1c49eef6748034c2889e19669e6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpcompatibility/php-compatibility": "*",
+                "phpstan/phpstan": "^1.11",
+                "phpunit/phpunit": "8.5.14"
+            },
+            "time": "2024-07-10T15:32:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SeQura\\Core\\BusinessLogic\\": "src/BusinessLogic",
+                    "SeQura\\Core\\Infrastructure\\": "src/Infrastructure"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Core SeQura integration library",
+            "support": {
+                "issues": "https://github.com/sequra/integration-core/issues",
+                "source": "https://github.com/sequra/integration-core/tree/v1.0.15"
+            },
+            "install-path": "../sequra/integration-core"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
